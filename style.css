@@ -1,0 +1,89 @@
+* {
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+     background-color: bisque;
+}
+
+#main{
+    height: 400px;
+    width: 400px;
+    border: 1px solid black;
+    border-radius: 5%;
+    margin: auto;
+    margin-top: 100px;
+    position: relative;
+    background-color: dodgerblue;
+}
+
+
+#container{
+    position: relative;
+    height: 350px;
+    width: 350px;
+    /* border: 1px solid black; */
+    margin: auto;
+    margin-top: 23px;
+    background-color: yellow;
+}
+
+h1{
+    text-align: center;
+}
+
+.Alarm-fields{
+    display: flex;
+    justify-content: space-between;
+    /* margin: 10px auto; */
+}
+
+.Alarm-fields input[type=number] {
+    width: 30%;
+    padding: 12px 20px;
+    margin: 10px 0;
+    box-sizing: border-box;
+    border: 1px solid black;
+    border-radius: 5px;
+}
+
+.buttons {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 10px;
+}
+
+.Alarm-btn{
+    background-color: black;
+    color: white;
+    border: none;
+}
+
+.Alarm-btn:hover{
+    background-color: dodgerblue;
+}
+
+.stop-alarm{
+    background-color: black;
+    color: white;
+    border: none;
+}
+
+.stop-alarm:hover{
+     background-color: red;
+}
+
+.buttons button {
+    width: 100px;
+    height: 30px;
+    border-radius: 5px;
+    font-size: 0.8rem;
+    cursor: pointer;
+}
+
+h3{
+    text-align: center;
+    margin-top: 20px;
+}
+

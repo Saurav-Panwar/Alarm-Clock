@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Alarm Clock</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div id="main">
+        <div id="container">
+
+            <!-- For showing real time -->
+            <h1>00:00:00</h1>
+
+            <!-- For input -->
+        <form class="Alarm-set">
+            <!-- To set time and input -->
+            <div class="Alarm-fields">
+                <input type="number" name="hr" placeholder="HH" max="23" min="00">
+                <input type="number" name="min" placeholder="MM" max="59" min="00">
+                <input type="number" name="sec" placeholder="SS" max="59" min="00">
+            </div>
+            <!-- Alarm buttons -->
+            <div class="buttons">
+                <button type="submit" class="Alarm-btn">Set Alarm</button>
+                <button type="reset" onclick="stopAlarm()" class="stop-alarm">Stop Alarm</button>
+            </div>
+        </form>
+        
+        <h3>Upcoming Alarms</h3>
+
+        
+        <!-- Set Alarm List -->
+        <div id="upcoming-alarms">
+            <ul id="upcoming-alarms-list">
+                <!-- Items i.e Alarms are added using js -->
+            </ul>
+        </div>
+    </div>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
